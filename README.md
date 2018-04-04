@@ -40,18 +40,37 @@ ls -a public/assets | sort
 
 **For MAC**
 
-`262253 bites`
 
 ```
-main-8ef023d4a0e16fb9f1bf.js
+262330 bites
+
+main-346463b8e9a65104ac23.js
 ```
 
-**For LINUX**
-
-`262253 bites`
+**For Linux**
 
 ```
-main-2cf321dd8fe096961f6f.js
+CentOS Linux release 7.4.1708 (Core)
+NAME="CentOS Linux"
+VERSION="7 (Core)"
+```
+
+```
+262330 bites
+
+main-65a9a525196b42d87983.js
+```
+
+```
+DISTRIB_DESCRIPTION="Ubuntu 16.04.3 LTS"
+NAME="Ubuntu"
+VERSION="16.04.3 LTS (Xenial Xerus)"
+```
+
+```
+262330 bites
+
+main-bb20cb76ef5e75216eb8.js
 ```
 
 ### When it works fine
