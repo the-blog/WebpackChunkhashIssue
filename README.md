@@ -8,10 +8,18 @@ I could extract an example. It's just a one of them. This case is reproducable w
 
 Probably it will help to debug and find a reason why it happens.
 
-### How to install
+### Quick start
 
 ```
+git clone git@github.com:the-blog/WebpackChunkhashIssue.git
+
+cd WebpackChunkhashIssue
+
 yarn install
+
+yarn build
+
+ls -a public/assets | sort
 ```
 
 ### How to reproduce
@@ -52,6 +60,10 @@ main-2cf321dd8fe096961f6f.js
 
 ```
 require('expose-loader?$!node_modules/jquery/dist/jquery.js')
+```
+
+```
+yarn build
 ```
 
 **For MAC**
