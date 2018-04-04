@@ -1,4 +1,4 @@
-## Webpack 3. Bug with hashed chunks' names on different machines
+# Webpack calculates different `chunkhash` on different machines
 
 We found that on different machines `chunkhash` gives different values. It's a really important problem because our project has a few front-end servers and when we use load balancer sometimes our users just can't reach required assets.
 
