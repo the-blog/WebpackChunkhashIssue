@@ -45,3 +45,23 @@ main-8ef023d4a0e16fb9f1bf.js
 ```
 main-2cf321dd8fe096961f6f.js
 ```
+
+### When it works fine
+
+**index.js**
+
+```
+require('expose-loader?$!node_modules/jquery/dist/jquery.js')
+```
+
+**For MAC**
+
+`262003 bites`
+
+`main-231993cf39ff54f7a509.js`
+
+**For Linux**
+
+`262003 bites`
+
+`main-231993cf39ff54f7a509.js`
