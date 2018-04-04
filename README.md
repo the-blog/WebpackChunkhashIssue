@@ -44,7 +44,7 @@ ls -a public/assets | sort
 ```
 262330 bites
 
-main-346463b8e9a65104ac23.js
+main-346463b8e9a65104ac23.js | MD5 d8c2b3b46248c3f123c9ecea596a6d09
 ```
 
 **For Linux**
@@ -58,8 +58,10 @@ VERSION="7 (Core)"
 ```
 262330 bites
 
-main-65a9a525196b42d87983.js
+main-65a9a525196b42d87983.js | MD5 d8c2b3b46248c3f123c9ecea596a6d09
 ```
+
+======
 
 ```
 DISTRIB_DESCRIPTION="Ubuntu 16.04.3 LTS"
@@ -70,7 +72,23 @@ VERSION="16.04.3 LTS (Xenial Xerus)"
 ```
 262330 bites
 
-main-bb20cb76ef5e75216eb8.js
+main-bb20cb76ef5e75216eb8.js | MD5 d8c2b3b46248c3f123c9ecea596a6d09
+```
+
+=====
+
+```
+Debian based:
+
+main-dd874969c39e5cf54bce.js | MD5 d8c2b3b46248c3f123c9ecea596a6d09
+```
+
+=====
+
+```
+Another MAC:
+
+main-d6113094b587ee14e33a.js | MD5 d8c2b3b46248c3f123c9ecea596a6d09
 ```
 
 ### When it works fine
