@@ -166,3 +166,5 @@ module: {
 module.exports = global["jQuery"] = require("-![ABSOLUTE_PATH]/expose-loader/index.js?$!./jquery.js");
 module.exports = global["$"] = require("-!./jquery.js");
 ```
+
+<img width="100%" src="https://user-images.githubusercontent.com/496713/38870389-53aea5a8-4256-11e8-80a8-97f7d29fb0db.png">
