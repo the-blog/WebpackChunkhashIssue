@@ -17,16 +17,21 @@ Would be great if we ping `expose-loader`'s team and push them to merge the foll
 https://github.com/webpack-contrib/expose-loader/pull/59
 
 ### Quick start
-
 ```
 git clone git@github.com:the-blog/WebpackChunkhashIssue.git
-
 cd WebpackChunkhashIssue
+```
 
+Use Docker to build an image:
+
+```
+docker build -t webpack-issue .
+```
+
+or run manually:
+```
 yarn install
-
 yarn build
-
 ls -a public/assets | sort
 ```
 
