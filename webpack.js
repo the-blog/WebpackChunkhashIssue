@@ -1,3 +1,4 @@
+const WebpackMd5Hash = require('webpack-md5-hash')
 const webpack = require('webpack')
 const path = require('path')
 
@@ -16,5 +17,9 @@ module.exports = {
   resolve: {
     extensions: ['.js'],
     modules: [ rootPath ]
-  }
+  },
+
+  plugins: [
+    new WebpackMd5Hash()
+  ]
 }
