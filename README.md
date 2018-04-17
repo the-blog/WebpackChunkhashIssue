@@ -120,3 +120,49 @@ yarn build
 1. Open Chrome `chrome://inspect`
 2. `yarn debug`
 3. Remote Targe: click `Inspect` link
+
+### The Issue
+
+**Good Case**
+
+```
+require('node_modules/jquery/dist/jquery.js')
+
+module: {
+  rules: [{
+    test: /jquery\.js$/,
+    use: [{
+      loader: 'expose-loader',
+      options: 'jQuery'
+    }]
+  }]
+}
+```
+
+```
+module.exports = global["jQuery"] = require("-!./jquery.js");
+```
+
+**Bad Case**
+
+```js
+require('node_modules/jquery/dist/jquery.js')
+
+module: {
+  rules: [{
+    test: /jquery\.js$/,
+    use: [{
+      loader: 'expose-loader',
+      options: 'jQuery'
+    },{
+      loader: 'expose-loader',
+      options: '$'
+    }]
+  }]
+}
+```
+
+```js
+module.exports = global["jQuery"] = require("-![ABSOLUTE_PATH]/expose-loader/index.js?$!./jquery.js");
+module.exports = global["$"] = require("-!./jquery.js");
+```
