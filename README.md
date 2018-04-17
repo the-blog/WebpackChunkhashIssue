@@ -8,6 +8,14 @@ I could extract an example. It's just a one of them. This case is reproducable w
 
 Probably it will help to debug and find a reason why it happens.
 
+## UPDATE
+
+I found that actually `expose-loader` is the cause why for some cases we couldn't use Long Term Caching.
+
+Would be great if we ping `expose-loader`'s team and push them to merge the following fix:
+
+https://github.com/webpack-contrib/expose-loader/pull/59
+
 ### Quick start
 
 ```
