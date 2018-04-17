@@ -9,16 +9,21 @@ I could extract an example. It's just a one of them. This case is reproducable w
 Probably it will help to debug and find a reason why it happens.
 
 ### Quick start
-
 ```
 git clone git@github.com:the-blog/WebpackChunkhashIssue.git
-
 cd WebpackChunkhashIssue
+```
 
+Use Docker to build an image:
+
+```
+docker build -t webpack-issue .
+```
+
+or run manually:
+```
 yarn install
-
 yarn build
-
 ls -a public/assets | sort
 ```
 
