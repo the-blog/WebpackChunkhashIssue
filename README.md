@@ -114,3 +114,9 @@ yarn build
 `262003 bites`
 
 `main-231993cf39ff54f7a509.js`
+
+### How to Debug
+
+1. Open Chrome `chrome://inspect`
+2. `yarn debug`
+3. Remote Targe: click `Inspect` link
