@@ -4,7 +4,7 @@
     "debug": "rm -rf ./public/assets && node --inspect-brk ./node_modules/webpack/bin/webpack.js --config ./webpack.js"
   },
   "dependencies": {
-    "expose-loader": "0.7.4",
+    "expose-loader": "https://github.com/the-forks/expose-loader.git#0e8599d",
     "jquery": "2.2.0",
     "webpack": "3.8.1",
     "webpack-md5-hash": "^0.0.6"

@@ -736,9 +736,9 @@ expand-brackets@^2.1.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-expose-loader@0.7.4:
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/expose-loader/-/expose-loader-0.7.4.tgz#9bcdd3878b5da9107930b55a03f65afe90b3314a"
+"expose-loader@https://github.com/the-forks/expose-loader.git#0e8599d":
+  version "0.7.5"
+  resolved "https://github.com/the-forks/expose-loader.git#0e8599d736fc06d9b180b575d064cc94da992649"
 
 extend-shallow@^2.0.1:
   version "2.0.1"

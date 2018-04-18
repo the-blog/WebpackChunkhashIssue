@@ -29,6 +29,7 @@ docker build -t webpack-issue .
 ```
 
 or run manually:
+
 ```
 yarn install
 yarn build
